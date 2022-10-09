@@ -1,0 +1,156 @@
+body {
+    background: url(../Imagenes/fondo.jpg) ;
+    color: #fff !important;
+}
+
+* {
+    font-family: 'Alegreya SC', sans-serif;
+}
+
+footer {
+    background-color: #6e624f;
+}
+
+.container {
+    margin: 0%;
+    max-width: 1350px;
+}
+
+.listaPanes {
+    height: 110px;
+    width: 100%;
+
+}
+.listaPanes:hover {
+    margin-left: 10px !important;
+}
+
+.vertical-menu {
+    width: 100%;
+    height: 90%;
+    overflow-y: auto;
+}
+
+.vertical-menu a {
+    background-color: #eee;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.vertical-menu a:hover {
+    background-color: #ccc;
+}
+
+.vertical-menu a.active {
+    background-color: #a69172;
+    color: white;
+    font-size: 23px;
+}
+
+.seccionP {
+    font-size: 22px;
+    font-style: italic;
+}
+
+
+
+
+/* From uiverse.io by @BHARGAVPATEL1244 */
+.buttonP {
+    border: 3px solid #ffffff;
+    outline: none;
+    cursor: pointer;
+    padding: 40px 40px;
+    margin: 13px;
+    font-family: inherit;
+    font-size: inherit;
+    position: relative;
+    display: inline-block;
+    letter-spacing: 0.05rem;
+    font-weight: 700;
+    font-size: 17px;
+    border-radius: 150px;
+    overflow: hidden;
+    background: #fff;
+    color: ghostwhite;
+}
+
+.buttonP span {
+    position: relative;
+    z-index: 10;
+    transition: color 0.4s;
+}
+
+.buttonP:hover span {
+    color: black;
+
+}
+
+.buttonP:hover {
+    border: 2px solid #a69172;
+}
+
+.buttonP::before,
+.buttonP::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.buttonP::before {
+    content: "";
+    background: #bfac8e;
+
+    width: 120%;
+    left: -10%;
+    transform: skew(30deg);
+    transition: transform 0.4s cubic-bezier(0.3, 1, 0.8, 1);
+}
+
+.buttonP:hover::before {
+    transform: translate3d(100%, 0, 0);
+
+}
+
+.labelListado {
+    background-color: #ffffff82 !important;
+    height: 40px;
+    width: 180px;
+    text-align: center;
+    font-style: italic;
+    padding: inherit;
+}
+
+.labelListado:hover {
+    background-color: #00000082 !important;
+    color: white;
+
+}
+
+
+.labelTitulo{
+    font-size: 30px;
+}
+
+.labelTitulo2{
+    font-size: 20px;
+}
+
+.labelTitulo:hover{
+    font-size: 35px;
+    background: url(../Imagenes/icoCambiante.png) no-repeat center;
+}
+
+.labelTitulo2:hover{
+    font-size: 25px;
+    background: url(../Imagenes/icoCambiante.png) no-repeat center;
+}
+
+p{
+    font-size:25px;
+}
